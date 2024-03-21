@@ -1,0 +1,269 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://tse3.mm.bing.net/th?id=OIP.Q2GjYShEJJoytz_asIiSeQHaEo&pid=Api&P=0&h=180");
+  background-size: cover;
+  background-attachment: fixed;
+  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+  header {
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.ybotv4qYNMzVyqPYO-hAFwHaE8&pid=Api&P=0&h=180");
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    
+  }
+  #FD{
+    color: floralwhite;
+    margin-top: 5px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header h3 {
+    color:aquamarine;
+    margin: 0;
+  }
+  
+  #about{
+    background-color: darkblue;
+    color: #fff;
+    font-family: 'Almendra';
+    font-size: large;
+  }
+  #skills h2{
+    font-family: 'Angkor';
+    text-shadow:  #333;
+    font-weight: bold;
+    margin-left: 600px;
+    color:darkblue;
+    background-color: aqua;
+    border-radius: 5px;
+    width:100px;
+  }
+  #exp{
+    font-family: 'Angkor';
+    text-shadow:  #333;
+    font-weight: bold;
+    margin-left: 500px;
+    color:darkblue;
+    background-color: aqua;
+    border-radius: 5px;
+    width:300px;
+    padding-left: 10px;
+  }
+  section {
+    padding: 20px;
+  }
+  
+  section h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li span:first-child {
+    font-weight: bold;
+  }
+  
+  li span:last-child {
+    color: #666;
+  }
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h3 {
+  color: #666;
+  margin: 0;
+}
+
+section {
+  padding: 20px;
+}
+
+section h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#social-accounts {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #social-accounts h2 {
+    margin-bottom: 10px;
+  }
+  
+  #social-accounts ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #social-accounts li {
+    margin: 0 10px;
+  }
+  
+  #social-accounts a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #social-accounts a:hover {
+    background-color: #ddd;
+  }
+  
+  #social-accounts img {
+    width: 100%;
+    height: auto;
+  }
+  #projects {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #projects h2 {
+    margin-bottom: 10px;
+  }
+  
+  #projects ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #projects li {
+    margin: 10px;
+    flex-basis: calc(33.333% - 20px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  #projects a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 16px;
+  }
+  
+  #projects h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  
+  #projects p {
+    margin-bottom: 0;
+  }
+  /* Center align heading */
+.work-experience h2 {
+  text-align: center;
+}
+
+/* Style the work experience card */
+.work-experience .work-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style the card title */
+.work-experience .work-card .card-title {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the card body */
+.work-experience .work-card .card-body {
+  font-size: 16px;
+}
+
+/* Style the card text */
+.work-experience .work-card .card-text {
+  margin-bottom: 10px;
+}
+
+/* Style the card text in italics */
+.work-experience .work-card .card-text em {
+  font-style: italic;
+}
+#Pro{
+  color: red;
+  margin-left: 500px;
+  font-weight: bold;
+}
+.History{
+  color:blue;
+  margin-left: 450px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+
+}
+.History, #education {
+  display: inline-block;
+  text-align: left;
+}
+.education {
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+}
+#education {
+  text-align: center;
+}
+.education {
+  margin: auto;
+  width: fit-content;
+  background: rgba(255, 255, 255, 0.7); /* Adding a semi-transparent white background to improve readability */
+  padding: 20px; /* Adding padding for better spacing */
+  border-radius: 10px; /* Adding border radius for a rounded look */
+}

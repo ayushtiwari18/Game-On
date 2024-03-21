@@ -1,0 +1,71 @@
+/* Additional custom styles */
+body {
+    padding-top: 70px; 
+    /* Adjust according to navbar height */
+   
+  }
+  .navbar {
+    background-color: transparent !important;
+  }
+  .navbar .nav-link {
+    color: white !important; /* Change link color */
+  }
+  .navbar .navbar-toggler-icon {
+    background-color: white; /* Change toggler color */
+  }
+  header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    transition: 0.5s ease;
+}
+
+header .brand{
+    /* margin-left: 200px; */
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .brand:hover{
+    color: #09a6d4;
+}
+
+header .navigation{
+    position: relative;
+}
+
+header .navigation .navigation-items .an{
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+}
+
+header .navigation .navigation-items .an:before{
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+header .navigation .navigation-items .an:hover:before{
+    width: 100%;
+    background: #09a6d4;
+}

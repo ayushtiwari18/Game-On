@@ -1,0 +1,185 @@
+body{
+    background-color: #F7EEDD;
+}
+.full{
+   
+    background-image: url("fbback.jpeg");
+    background-size: cover;
+   
+    isolation: isolate;
+    margin:0;
+    position: relative;
+    padding-top: 2rem; 
+
+}
+.full::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-color: gray;
+    opacity: 0.8;
+}
+
+
+.head{
+    height: 210px;
+    width: 213vh;
+    background-color: #008DDA;
+    color: #ace2e1;
+    margin-left: 10px;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+.bbmain{
+    margin-left: 20rem;
+    filter: drop-shadow(10px 10px 10px #ace2e1);
+    
+}
+.head1 p{
+    filter: drop-shadow(13px 13px 5px black) ;
+}
+.head1{
+    height: 200px;
+    width: 800px;
+    font-size: 50px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-left: 20px;
+    align-items: center;
+}
+#l1{
+    
+    height: 150px;
+    width: 5px;
+    background-color: #ACE2E1;
+    box-shadow: 10px 10px 8px black;
+}
+.p{
+    margin-left: 20px;
+    font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#bbicon{
+    height: 150px;
+    width: 150px;
+    filter: drop-shadow(3px 3px 3px #ACE2E1 );
+    margin: 5px;
+}
+.visit{
+text-align: center;
+font-size: 70px;
+}
+.A1{
+  
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    -ms-flex-direction: row;
+    justify-content: space-evenly;
+}
+#l2{
+    height: 150px;
+    width: 5px;
+    background-color: #008DDA;
+
+}
+#p2{
+    color: black;
+     opacity:0.7 ;
+    font-size: 20px;
+}
+.cardhead{
+    height: 200px;
+    width: 800px;
+    font-size: 50px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-left: 20px;
+    align-items: center;
+}
+.head2{
+    height: 200px;
+    width: 800px;
+    font-size: 50px;
+    
+    /* justify-content: space-evenly; */
+    margin-left: 20px;
+    align-items: center;
+}
+.imgjcba{
+    height: 400px;
+    background-image: url("jcba.jpg");
+    background-size: cover;
+}
+.cardhead h1{
+    margin-left: 15px;
+    font-size:70px ;
+    
+}
+.cardhead h1 a{
+    text-decoration: none;
+    color: black;
+}
+.cardhead:hover h1 {
+    text-decoration: underline;
+     transform: scale(1.01);
+}
+.btn{
+    margin-left: 50px;
+    height: 40px;
+    width: 150px;
+    background-color: #F7EEDD;
+    color: #008DDA;
+    border-color: #008DDA;
+    border-radius: 8px;
+    font-size: 30px;
+    font-family: "Tienne", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.btn:hover{
+    background-color: #41C9E2;
+    color: black;
+}
+.A2{
+    height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        -ms-flex-direction: row;
+        justify-content: space-evenly;
+}
+.imgspps{
+    margin-left: 30px;
+
+}
+.lspps{
+    margin-left: 60px;
+}
+.p2{
+margin-left: 80px;
+}
+.C2{
+    margin-left: 100px;
+}
+
+.A3{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    -ms-flex-direction: row;
+    justify-content: space-evenly;
+}
+.right{
+    margin-right: 25px;
+}
+.curve{
+    border-radius: 30px;
+}

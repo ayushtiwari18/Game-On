@@ -1,0 +1,63 @@
+*
+.nav-link:hover {
+  box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+  color: red;
+}
+body{
+  background-color: black;
+}
+#logo{
+    height: 40px;
+    width: 70px;
+}
+
+.carousel-slide{
+  height:700px;
+}
+
+.btn-on-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; 
+  margin-left: -400px;
+  padding: 20px 40px; 
+  background-color: transparent; 
+  border: none;
+  color: white;
+  font-weight: bold; 
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  border: 3px  red solid;
+  border-radius:30px;
+}
+#Basket{
+  margin-top: -50px;
+}
+#virat{
+  margin-top: -100px;
+  border:5px blue solid;
+}
+#pv{
+  margin-top: -80px;
+  margin-left: 300px;
+}
+#messi{
+  margin-top: -100px;
+  border: 4px white solid;
+
+}
+.img{
+  margin-left: 300px;
+  width: 1000px;
+  height: 1000px
+}
+
+
+
+
+
+
+
+
