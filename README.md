@@ -1,2 +1,3 @@
 # Game-On
-Our first 6hrs hard wrok
+Our first hackathon 
+6hrs hard work
